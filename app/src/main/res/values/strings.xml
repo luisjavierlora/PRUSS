@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">magenta</string>
+    <string name="correo_electronico">Correo Electrónico</string>
+    <string name="password">Contraseña (6dig min)</string>
+    <string name="iniciar_sesion">LOGIN</string>
+    <string name="registrarse">SIGN UP</string>
+
+
+    <string name="digitar_nombre">Nombre</string>
+    <string name="digitar_correo">Correo electronico</string>
+    <string name="digitar_contrasena">Contraseña</string>
+    <string name="digitar_rcontrasena">Vuelva a digitar la contraseña</string>
+    <string name="rb1">Masculino</string>
+    <string name="rb2">Femenino</string>
+
+    <string name="registrar">Registrarse</string>
+    <string name="text_resultado">Resultado</string>
+    <string name="tv_fecha">"Fecha de nacimiento:"</string>
+    <string name="hint_fecha">dd/mm/yy</string>
+    <string name="menu_cerrarsesion">Cerrar Sesión</string>
+    <string name="correo_texto">Tu correo es:</string>
+    <string name="terminos"><![CDATA[Terminos & Condiciones]]></string>
+    <string name="registrate">Registrate</string>
+
+
+</resources>
