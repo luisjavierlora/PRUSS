@@ -29,8 +29,10 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+
+    /*
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_main,menu)
+        menuInflater.inflate(R.menu.activity_nav,menu)
         return true
     }
 
@@ -54,7 +56,7 @@ class MainActivity : AppCompatActivity() {
         intent.putExtra("contra",contra)
         startActivity(intent)
         finish()
-    }
+    }*/
 
 
 }
