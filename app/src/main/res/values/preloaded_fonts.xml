@@ -2,11 +2,13 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/audiowide</item>
+        <item>@font/comfortaa_bold</item>
         <item>@font/comfortaa_light</item>
-        <item>@font/glegoo</item>
-        <item>@font/knewave</item>
+
+        <item>@font/nunito_bold</item>
         <item>@font/nunito_extralight</item>
+        <item>@font/nunito_semibold</item>
         <item>@font/ubuntu_light</item>
-        <item>@font/viga</item>
+
     </array>
 </resources>

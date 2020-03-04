@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.pruss.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_equipos"
+            app:destination="@id/nav_equipos"
+            app:popUpTo="@+id/nav_home" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_finanzas"
+            app:destination="@id/nav_finanzas"
+            app:popUpTo="@+id/nav_home" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_inbox"
+            app:destination="@id/nav_inbox"
+            app:popUpTo="@+id/nav_home" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_archivos"
+            app:destination="@id/nav_archivos"
+            app:popUpTo="@+id/nav_home" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_sett"
+            app:destination="@id/nav_sett"
+            app:popUpTo="@+id/nav_home" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_sign_off"
+            app:destination="@id/nav_sign_off" />
+    </fragment>
+
+
+
+
+    <fragment
+        android:id="@+id/nav_equipos"
+        android:name="com.example.pruss.ui.teams.TeamsFragment"
+        android:label="@string/menu_teams"
+        tools:layout="@layout/fragment_teams" />
+
+    <fragment
+        android:id="@+id/nav_finanzas"
+        android:label="@string/finance"
+        android:name="com.example.pruss.ui.finance.FinanceFragment"
+        tools:layout="@layout/fragment_finance" />
+
+    <fragment
+        android:id="@+id/nav_inbox"
+        android:name="com.example.pruss.ui.inbox.InboxFragment"
+        android:label="@string/inbox"
+        tools:layout="@layout/fragment_inbox" />
+
+    <fragment
+        android:id="@+id/nav_archivos"
+        android:name="com.example.pruss.ui.archivos.ArchivosFragment"
+        android:label="@string/archivos"
+        tools:layout="@layout/fragment_archivos" />
+
+    <fragment
+        android:id="@+id/nav_sett"
+        android:name="com.example.pruss.ui.ajustes.AjustesFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_ajustes" />
+
+    <fragment
+        android:id="@+id/nav_sign_off"
+        android:name="com.example.pruss.SingOffFragment"
+        android:label="@string/sign_off"
+        tools:layout="@layout/activity_login" />
+
+</navigation>
