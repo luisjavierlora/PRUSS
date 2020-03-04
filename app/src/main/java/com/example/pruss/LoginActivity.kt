@@ -78,7 +78,7 @@ class LoginActivity : AppCompatActivity() {
 
 
     private fun goToMainActivity(){
-        var intent =Intent(this,MainActivity::class.java)
+        var intent =Intent(this,ActivityNAV::class.java)
         intent.putExtra("correo",correo)
         intent.putExtra("contra",contra)
 
