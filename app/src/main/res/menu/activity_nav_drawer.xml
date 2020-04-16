@@ -1,33 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:itemTextAppearance="@font/nunito_extralight"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single" >
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single" >
         <item
             android:id="@+id/nav_home"
-            android:title="@string/Home"
-             />
-        <item
-            android:id="@+id/nav_equipos"
-            android:title="@string/Team" />
-        <item
-            android:id="@+id/nav_finanzas"
-            android:title="@string/finance" />
-        <item
-            android:id="@+id/nav_inbox"
-            android:title="@string/inbox" />
-        <item
-            android:id="@+id/nav_archivos"
-            android:title="@string/archivos" />
-        <item
-            android:id="@+id/nav_sett"
-            android:title="@string/settings" />
-        <item
-            android:id="@+id/nav_sign_off"
-            android:title="@string/sign_off" />
+            android:title="@string/Home" />
     </group>
 
 
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_equipos"
+            android:title="@string/Team" />
+
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_finanzas"
+            android:title="@string/finance" />
+
+    </group>
+
+    <group
+        android:id="@+id/group4"
+        android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_inbox"
+            android:title="@string/inbox" />
+
+    </group>
+
+    <group
+        android:id="@+id/group5"
+        android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/nav_archivos"
+            android:title="@string/archivos" />
+
+    </group>
+
+    <group
+        android:id="@+id/group6"
+        android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_sett"
+            android:title="@string/settings" />
+
+    </group>
+
+
+    <group
+        android:id="@+id/group7"
+        android:checkableBehavior="single" >
+
+        <item
+            android:layout_marginTop="32dp"
+            android:id="@+id/nav_sign_off"
+            android:title="@string/sign_off" />
+    </group>
 
 </menu>

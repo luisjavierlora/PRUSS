@@ -154,12 +154,14 @@
 
             <Button
                 android:id="@+id/btRegistrar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@android:style/Widget.Button.Small"
+                android:layout_width="150dp"
 
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="25dp"
                 android:background="@drawable/form_bt_circle"
+                android:fontFamily="@font/nunito_extrabold"
                 android:padding="10dp"
                 android:text="@string/registrar"
                 android:textColor="@android:color/white"
