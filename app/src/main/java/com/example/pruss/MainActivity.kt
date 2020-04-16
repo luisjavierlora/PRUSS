@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
 
     var correo:String?=""
     var contra:String?=""
-
+    //---------------ESTA ACTIVIDAD NO SE USA
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

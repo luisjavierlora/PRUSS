@@ -28,12 +28,14 @@ class ActivityNAV : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration
     var correo:String?=""
     var contra:String?=""
+    var id_user:String?=""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_nav)
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
+
 
         val fab: FloatingActionButton = findViewById(R.id.fab)
         fab.setOnClickListener { view ->

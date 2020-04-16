@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_box_rounded"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:id="@+id/dialogNameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del proyecto"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bt_colorP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color Primario" />
+
+    <TextView
+        android:id="@+id/tv_p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.skydoves.colorpickerview.ColorPickerView
+        android:id="@+id/colorpickP"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:visibility="gone"
+        app:palette="@drawable/palette"
+        app:selector="@drawable/wheel" />
+
+    <Button
+        android:id="@+id/bt_colorS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ff9eff85"
+        android:text="COLOR SECUNDARIO" />
+
+
+    <TextView
+        android:id="@+id/tv_s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.skydoves.colorpickerview.ColorPickerView
+        android:id="@+id/colorpickS"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        app:palette="@drawable/palette"
+        app:selector="@drawable/wheel" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialogLoginBtn"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aceptar" />
+
+        <Button
+            android:id="@+id/dialogCancelBtn"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -2,7 +2,7 @@
     <string name="app_name">pruss</string>
     <string name="correo_electronico">Correo Electrónico</string>
     <string name="password">Contraseña (6dig min)</string>
-    <string name="iniciar_sesion">LOGIN</string>
+    <string name="iniciar_sesion">SIGN IN</string>
     <string name="registrarse">SIGN UP</string>
 
 
@@ -13,7 +13,7 @@
     <string name="rb1">Masculino</string>
     <string name="rb2">Femenino</string>
 
-    <string name="registrar">Registrarse</string>
+    <string name="registrar">Guardar</string>
     <string name="text_resultado">Resultado</string>
     <string name="tv_fecha">"Fecha de nacimiento:"</string>
     <string name="hint_fecha">dd/mm/yy</string>
@@ -35,7 +35,7 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
-    <string name="Home">Home</string>
+    <string name="Home">Inicio</string>
     <string name="Team">Equipos</string>
     <string name="finance">Finanzas</string>
     <string name="inbox">Inbox</string>
@@ -45,6 +45,15 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_nameproyect">Proyecto</string>
+    <string name="Misproyectos">Mis proyectos</string>
+    <string name="addtask">¿Que debes realizar?</string>
+    <string name="add">+ Agregar nueva tarea</string>
+    <string name="NewTask">Agrega un nuevo task</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="agregar">agregar</string>
+    <string name="horadefault">11:59 pm</string>
+    <string name="date_task">12/04/2020</string>
 
 
 </resources>
