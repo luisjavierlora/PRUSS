@@ -14,12 +14,18 @@
     </style>
 
 
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/black</item>
+    </style>
+
     <style name="BarPruss" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColorPrimary">#293A80</item>
+        <item name="android:fontFamily">@font/nunito_bold</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
     </style>
 
 

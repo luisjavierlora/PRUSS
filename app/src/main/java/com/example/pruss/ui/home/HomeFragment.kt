@@ -36,8 +36,6 @@ class HomeFragment : Fragment() {
     private lateinit var homeViewModel: HomeViewModel
 
     var  Proyectos:MutableList<proyecto> = mutableListOf()
-    //var keys:ArrayList<String>?=null
-    var layoutManager: RecyclerView.LayoutManager?=null
     lateinit var adaptador: Rv_AdapterProyects
     lateinit var  adapterTask: Rv_AdapterTask
     var allTask : MutableList<Task> = mutableListOf()
@@ -286,7 +284,7 @@ class HomeFragment : Fragment() {
                 val hour = if (hour < 10) "0" + hour else hour
                 val min = if (minute < 10) "0" + minute else minute
                 // display format of time
-                val msg = "$hour : $min $am_pm"
+                val msg = "$hour:$min $am_pm"
                 mDialog.tv_hora.text = msg
                 mDialog.tv_hora.visibility = ViewGroup.VISIBLE
             }
