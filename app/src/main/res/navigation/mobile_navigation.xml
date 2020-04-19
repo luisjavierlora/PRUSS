@@ -31,9 +31,7 @@
             android:id="@+id/action_nav_home_to_nav_sett"
             app:destination="@id/nav_sett"
             app:popUpTo="@+id/nav_home" />
-        <action
-            android:id="@+id/action_nav_home_to_nav_sign_off"
-            app:destination="@id/nav_sign_off" />
+
     </fragment>
 
 
@@ -69,10 +67,6 @@
         android:label="@string/settings"
         tools:layout="@layout/fragment_ajustes" />
 
-    <fragment
-        android:id="@+id/nav_sign_off"
-        android:name="com.example.pruss.SingOffFragment"
-        android:label="@string/sign_off"
-        tools:layout="@layout/activity_login" />
+
 
 </navigation>

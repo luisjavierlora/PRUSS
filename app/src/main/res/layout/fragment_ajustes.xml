@@ -1,24 +1,256 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
+    android:orientation="vertical"
     tools:context=".ui.ajustes.AjustesFragment">
 
-    <!-- TODO: Update blank fragment layout -->
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:src="@drawable/ajustes"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.288"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/infopersonal"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="126dp"
+            tools:layout_editor_absoluteY="63dp" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/nombreuser"
+            android:textColor="@color/background"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gris_coco" />
+
+        <TextView
+            android:id="@+id/tv_correouser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito"
+            android:paddingLeft="8dp"
+            android:paddingBottom="5dp"
+            android:text="@string/correouser"
+            android:textColor="@color/background"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gris_coco" />
+
+        <TextView
+            android:id="@+id/tv_roluser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito"
+            android:paddingLeft="8dp"
+            android:paddingBottom="5dp"
+            android:text="@string/rol_user"
+            android:textColor="@color/background"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gris_coco" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/organizacion"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="126dp"
+            tools:layout_editor_absoluteY="63dp" />
+
+
+        <TextView
+            android:id="@+id/tv_organizacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito"
+            android:paddingLeft="8dp"
+            android:paddingBottom="5dp"
+            android:text="@string/organizacion"
+            android:textColor="@color/background"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gris_coco" />
+
+
+        <TextView
+            android:id="@+id/tv_equipoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito"
+            android:paddingLeft="8dp"
+            android:paddingBottom="5dp"
+            android:text="@string/Team"
+            android:textColor="@color/background"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gris_coco" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/configuracion"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="126dp"
+            tools:layout_editor_absoluteY="63dp" />
+
+
+        <TextView
+            android:id="@+id/tv_noti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito"
+            android:paddingLeft="8dp"
+            android:paddingBottom="5dp"
+            android:text="@string/notificacion"
+            android:textColor="@color/background"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gris_coco" />
+
+        <TextView
+            android:id="@+id/tv_ayuda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito"
+            android:paddingLeft="8dp"
+            android:paddingBottom="5dp"
+            android:text="@string/ayuda"
+            android:textColor="@color/background"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gris_coco" />
+
+        <TextView
+            android:id="@+id/tv_lenguaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito"
+            android:paddingLeft="8dp"
+            android:paddingBottom="5dp"
+            android:text="@string/lenguaje"
+            android:textColor="@color/background"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gris_coco" />
+
+        <TextView
+            android:id="@+id/tv_acerca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito"
+            android:paddingLeft="8dp"
+            android:paddingBottom="5dp"
+            android:text="@string/acercade"
+            android:textColor="@color/background"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gris_coco" />
+
+
+        <TextView
+            android:id="@+id/tv_singoff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/nunito"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/sign_off"
+            android:textColor="@color/background"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gris_coco" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

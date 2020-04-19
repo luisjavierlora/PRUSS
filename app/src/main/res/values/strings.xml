@@ -49,11 +49,42 @@
     <string name="Misproyectos">Mis proyectos</string>
     <string name="addtask">¿Que debes realizar?</string>
     <string name="add">+ Agregar nueva tarea</string>
-    <string name="NewTask">Agrega un nuevo task</string>
+    <string name="NewTask">Agregar una nueva tarea</string>
     <string name="cancelar">Cancelar</string>
     <string name="agregar">agregar</string>
     <string name="horadefault">11:59 pm</string>
     <string name="date_task">12/04/2020</string>
+    <string name="tus_aportes">Tus aportes</string>
+    <string name="infopersonal">Información personal</string>
+    <string name="nombreuser">Nombre usuario</string>
+    <string name="correouser">Correo usuario</string>
+    <string name="rol_user">Mi rol</string>
+    <string name="organizacion">Mi organización</string>
+    <string name="configuracion">Configuración</string>
+    <string name="notificacion">Notificaciones</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="lenguaje">Lenguaje</string>
+    <string name="acercade">Acerca de</string>
+    <string name="vaciar">vaciar</string>
+    <string name="papelera">No tienes ningun archivo almacenado</string>
+    <string name="PrussTeam">Pruss Team</string>
+    <string name="mandar_mensaje">+ crear nuevo chat</string>
+    <string name="buscarmiembro">Buscar un miembro</string>
+    <string name="flujotrabajo">Flujo de trabajo</string>
+    <string name="newgroup">Agregar un nuevo grupo</string>
+    <string name="Administradores" />
+    <string name="Admin">Administradores</string>
+    <string name="miembros">Miembros</string>
+    <string name="newgrupo">Agregar un nuevo equipo</string>
+    <string name="nombre_del_grupo">Nombre del equipo</string>
+    <string name="recursos">Recurso monetario</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="tusaportes">Tus aportes</string>
+    <string name="reporte">Reporte de trabajo</string>
+    <string name="peticion">Peticion de presupuesto</string>
+    <string name="presupuestos">Presupuestos</string>
+    <string name="Data">Data</string>
+
 
 
 </resources>

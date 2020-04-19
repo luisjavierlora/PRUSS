@@ -53,7 +53,7 @@ class ActivityNAV : AppCompatActivity() {
         appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.nav_home, R.id.nav_equipos, R.id.nav_finanzas,
-                R.id.nav_inbox, R.id.nav_archivos, R.id.nav_sett, R.id.nav_sign_off
+                R.id.nav_inbox, R.id.nav_archivos, R.id.nav_sett
             ), drawerLayout
         )
 

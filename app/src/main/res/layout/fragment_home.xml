@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/white"
 
-    android:orientation="vertical"
-    android:padding="8dp">
+    android:orientation="vertical">
 
     <ScrollView
         android:id="@+id/scrollhome"
@@ -22,37 +21,45 @@
             android:id="@+id/linear"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:fontFamily="@font/nunito_bold"
                 android:text="Hoy"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_task"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp" />
 
             <TextView
                 android:id="@+id/tv_add"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/verde_pruss"
-                android:text="@string/add"
-                android:textColor="@android:color/black"
-                android:textSize="18sp" />
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/form_bt_circle"
+                android:text="@string/NewTask"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:fontFamily="@font/nunito_bold"
                 android:text="@string/Misproyectos"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_proyectos"
@@ -60,6 +67,24 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:orientation="horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="@string/flujotrabajo"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/fui_bgTwitter"
+                android:textColor="@color/fui_bgTwitter" />
+
 
         </LinearLayout>
     </ScrollView>
